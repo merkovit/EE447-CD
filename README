@@ -1,1 +1,5 @@
-//This is my personal website README
+/* Arduino code for EE447 Capstone Design Project */
+
+Code uses an ADXL345 Accelerometer, Arduino Mega, and LED.
+
+If a perturbation is sensed by the Accelerometer greater than the user defined tolerated perturbation (tolPert) then a flag is set causing the LED to blink
